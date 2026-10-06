@@ -10,7 +10,11 @@ Each opponent you knock out is replaced by a faster one that tracks your head be
 
 **This is a webcam game. There is no keyboard or mouse substitute for the head.** If no face is being tracked, the fight does not start, and if your face leaves the picture mid-fight everything freezes until it is back.
 
-## Run it
+## Play it
+
+**https://maxrandklev1.github.io/head-tracked-boxing/** (Chrome or Edge, with a webcam).
+
+## Run it locally
 
 Needs [Node.js](https://nodejs.org) 20 or newer, a webcam, and a Chromium-based browser (Chrome or Edge).
 
@@ -55,6 +59,10 @@ Punches cost stamina (the yellow bar), and tired punches are weak, so do not jus
 - The opponent's animation clips are scrubbed to the fight logic's timing, so the moment a punch visibly lands is the moment the hit is judged.
 
 `src/boxing.js` is the game, `src/tracker.js` the webcam tracking, `src/filter.js` the smoothing, `src/main.js` the glue.
+
+## Deploy
+
+`npm run deploy` builds the game and pushes the build to the `gh-pages` branch, which GitHub Pages serves.
 
 ## Test
 

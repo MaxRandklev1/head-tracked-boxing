@@ -13,7 +13,8 @@ const SKIN = [0xc98d6b, 0x8d5a3c, 0xe2b48f, 0x6f4630];
 const TRUNKS = [0xe5484d, 0x2e7dd6, 0x8ac926, 0xe8c547, 0x8f6bff];
 // Multiplied into the model's neutral skin texture, one per opponent.
 const SKIN_TINT = [0xffffff, 0xb78a70, 0xffeedd, 0x8c654d];
-const ASSETS = "/models/boxing/";
+// Relative to wherever the page is hosted.
+const ASSETS = `${import.meta.env.BASE_URL}models/boxing/`;
 const NAMES = ["Rookie Rae", "Southpaw Sol", "Iron Ines", "Granite Gus", "The Champ"];
 
 export function createBoxing({ scene, rig, canvas, camera, params }) {
