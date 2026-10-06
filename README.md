@@ -33,6 +33,7 @@ Open the address it prints (http://localhost:5173/), allow the camera, sit where
 | Left mouse | Left hand |
 | Right mouse | Right hand |
 | C | Recenter: your current head position becomes your stance |
+| V | Big webcam view on / off (for demos: stays on screen while you play) |
 | Esc | Release the mouse and pause |
 
 Wherever your head is when you click in counts as your neutral stance. Leave yourself room to move a hand's width in every direction.
